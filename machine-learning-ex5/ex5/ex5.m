@@ -77,7 +77,8 @@ pause;
 %  trainLinearReg function will use your cost function to train 
 %  regularized linear regression.
 % 
-%  Write Up Note: The data is non-linear, so this will not give a great 
+%  Write Up Note: The dat
+% is non-linear, so this will not give a great 
 %                 fit.
 %
 

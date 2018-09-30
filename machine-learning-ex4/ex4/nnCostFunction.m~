@@ -51,7 +51,7 @@ Theta2_grad = zeros(size(Theta2));
 %               cost function.
 %
 %         Hint: We recommend implementing backpropagation using a for-loop
-e%               over the training examples if you are implementing it for the 
+%               over the training examples if you are implementing it for the 
 %               first time.
 %
 % Part 3: Implement regularization with the cost function and gradients.
@@ -100,11 +100,7 @@ Theta2_grad = 1/m*D_2;
 
 %-------------------------------------------------part3--------------------------------------------------------%
 Theta1_grad(:,1) = 1/m*D_1(:,1);
-Theta1_grad(:,2:end) = 1/m*D_1(:,2:end) +lambda/m*Theta1(:,2:end);
-
-
-Theta2_grad(:,1) = 1/m*D_2(:,1);
-Theta2_grad(:,2:end) = 1/m*D_2(:,2:end) +lambda/m*Theta2(:,2:end);
+Thetal_grad(:,2:e) = 
 
 % -------------------------------------------------------------
 
